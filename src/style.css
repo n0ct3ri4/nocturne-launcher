@@ -1,0 +1,69 @@
+html {
+  background: url("../assets/background.png") no-repeat center center fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+html head {
+  display: none;
+}
+
+html body {
+  margin: 0;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+html body .main {
+  overflow-y: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html body .main input {
+  border-radius: 5px;
+  border: rgba(28, 28, 28, 0.5) 0.1mm solid;
+  background-color: #1c1c1c;
+  padding: 10px;
+  color: aliceblue;
+}
+
+html body .main h1 {
+  font-family: "Franklin Gothic Medium";
+  text-shadow: rgba(0, 0, 0, 0.5) 1mm 5px 5px;
+}
+
+html body .main hr {
+  margin: 5% auto;
+}
+
+html body .main button#play {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: aquamarine;
+}
+/*# sourceMappingURL=style.css.map */
